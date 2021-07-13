@@ -1,5 +1,5 @@
 import expressLoader from "./expressLoader";
-// import mongoDBLoader from "./mongodb";
+import mongoDBLoader from "./mongodb";
 
 export default async ({ config }) => {
   await mongoDBLoader({ config });

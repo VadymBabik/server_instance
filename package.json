@@ -4,7 +4,10 @@
   "description": "server_instance",
   "main": "index.js",
   "scripts": {
-    "start:dev": "nodemon"
+    "start:dev": "nodemon",
+    "build-babel": "babel -d ./build ./src -s --copy-files",
+    "build": "npm run build-babel",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",

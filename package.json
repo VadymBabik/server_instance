@@ -4,6 +4,7 @@
   "description": "server_instance",
   "main": "index.js",
   "scripts": {
+    "start": "node /build/index.js",
     "start:dev": "nodemon",
     "build-babel": "babel -d ./build ./src -s --copy-files",
     "build": "npm run build-babel",
@@ -39,5 +40,9 @@
     "@babel/preset-env": "^7.14.7",
     "babel-loader": "^8.2.2",
     "nodemon": "^2.0.12"
+  },
+   "engines": {
+    "node": "14.17.0",
+    "npm": "6.14.13"
   }
 }

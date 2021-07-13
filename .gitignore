@@ -21,6 +21,8 @@ lib-cov
 /.idea
 package-lock.json
 yarn.lock
+./build
+/build
 
 # Coverage directory used by tools like istanbul
 coverage
